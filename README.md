@@ -91,6 +91,7 @@ Bu oranların üzerindeki kenar kısımları artefakt olarak kabul edilip kırp�
 Sonuç olarak, yalnızca anlamlı içeriği barındıran görüntü korunmuştur.
 
 ---
+```
 
 ## **3. Dosya Yapısı**
 
@@ -102,9 +103,8 @@ ProkudinGorskii_Restoration/
 ├── data/ # Girdi cam plaka görüntüleri
 ├── results/ # Çıktı (unaligned, aligned, enhanced, cropped ve JSON raporlar)
 └── README.md # Proje açıklama dosyası
+```
 
-yaml
-Kodu kopyala
 
 ---
 
