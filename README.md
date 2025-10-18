@@ -140,6 +140,7 @@ Aşama	Çıktı Dosyası	Açıklama
 
 Örnek rapor içeriği:
 
+```json
 {
   "image": "../data/00056v.jpg",
   "metric": "NCC",
@@ -156,6 +157,11 @@ Aşama	Çıktı Dosyası	Açıklama
     "formula": "I_out = I_in^(1/gamma)"
   }
 }
+
+```
+
+
+
 7. Kullanılan Tekniklerin Özeti
 
 Teknik	Açıklama
