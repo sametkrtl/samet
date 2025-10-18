@@ -111,7 +111,7 @@ Kodu kopyala
 Bu proje Python 3.8+ sürümleriyle uyumludur.  
 Gerekli kütüphaneler:
 
-```bash
+
 pip install numpy opencv-python
 5. Çalıştırma Adımları
 Projeyi çalıştırmak için terminalden şu komutu kullanın:
@@ -140,8 +140,6 @@ Aşama	Çıktı Dosyası	Açıklama
 
 Örnek rapor içeriği:
 
-json
-Kodu kopyala
 {
   "image": "../data/00056v.jpg",
   "metric": "NCC",
@@ -159,6 +157,7 @@ Kodu kopyala
   }
 }
 7. Kullanılan Tekniklerin Özeti
+
 Teknik	Açıklama
 SSD	Farkların karesi üzerinden benzerlik ölçümü, aydınlık değişimlerine duyarlıdır.
 NCC	Normalize edilmiş korelasyon ölçümü, pozlama farklarına dayanıklıdır.
@@ -189,5 +188,3 @@ Ders: Bilgisayarlı Görü
 Bu proje yalnızca akademik amaçlarla geliştirilmiştir.
 Herhangi bir ticari kullanım veya yeniden dağıtım, yazarın iznine tabidir.
 
-yaml
-Kodu kopyala
