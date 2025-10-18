@@ -171,24 +171,31 @@ Histogram Equalization	Parlaklık dağılımını düzenler, kontrastı artırı
 Gamma Correction	Parlaklık tonlarını dengeler, detayları öne çıkarır.
 Auto Crop	Kenar artefaktlarını otomatik tespit edip kırpar.
 
-8. Deneysel Bulgular
-NCC metriği, SSD’ye göre daha kararlı sonuçlar vermiştir.
+## **8. Deneysel Bulgular**
 
-Ortalama hizalama süresi 0.2–3 saniye arasında değişmektedir.
+Bu projede gerçekleştirilen testler sonucunda aşağıdaki bulgular elde edilmiştir:
 
-Gama düzeltmesi (γ = 1.2), karanlık bölgelerde detay görünürlüğünü artırmıştır.
+- **NCC metriği**, SSD’ye göre daha kararlı ve güvenilir hizalama sonuçları üretmiştir.  
+- Ortalama **hizalama süresi**, görüntü boyutuna bağlı olarak **0.2 – 3 saniye** arasında değişmiştir.  
+- **Gama düzeltmesi (γ = 1.2)**, özellikle karanlık bölgelerde detay görünürlüğünü belirgin biçimde artırmıştır.  
+- **Histogram eşitleme**, parlaklık dağılımını iyileştirerek kontrastı ve renk dengesini güçlendirmiştir.  
+- **Otomatik kırpma**, hizalama sonrası oluşan kenar artefaktlarını başarıyla temizlemiş ve görsellerin estetik kalitesini yükseltmiştir.
 
-Histogram eşitleme, kontrastı ve renk dengesini belirgin şekilde iyileştirmiştir.
+---
 
-Otomatik kırpma, hizalama sonrası oluşan kenar hatalarını başarıyla ortadan kaldırmıştır.
+## **9. Yazar Bilgileri**
 
-9. Yazar Bilgileri
-Hazırlayan: Samet Kartal – 220212006
-Bölüm: Yapay Zekâ Mühendisliği
-Üniversite: OSTİM Teknik Üniversitesi
-Ders: Bilgisayarlı Görü
-Öğretim Üyesi: Dr. Öğr. Üyesi Ramin ABBASZADİ
+| Bilgi Alanı | İçerik |
+|--------------|--------|
+| **Hazırlayan** | Samet Kartal – 220212006 |
+| **Bölüm** | Yapay Zekâ Mühendisliği |
+| **Üniversite** | OSTİM Teknik Üniversitesi |
+| **Ders** | Bilgisayarlı Görü |
+| **Öğretim Üyesi** | Dr. Öğr. Üyesi Ramin ABBASZADİ |
 
-10. Lisans Bilgisi
-Bu proje yalnızca akademik amaçlarla geliştirilmiştir.
-Herhangi bir ticari kullanım veya yeniden dağıtım, yazarın iznine tabidir.
+---
+
+## **10. Lisans Bilgisi**
+
+Bu proje yalnızca **akademik amaçlarla** geliştirilmiştir.  
+Herhangi bir ticari kullanım veya yeniden dağıtım, **yazarın iznine tabidir**.
